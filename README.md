@@ -11,8 +11,8 @@ Applications that use this binary:
 
 How to compile:
 
-apt source util-linux
-cd util-linux-*
-./autogen.sh
-./configure
-make fstrim CC=YOURCOMPILERHERE CFLAGS="-static" LDFLAGS="--static"
+> apt source util-linux  
+> cd util-linux-*  
+> ./autogen.sh  
+> ./configure  
+> make fstrim CC=YOURCOMPILERHERE CFLAGS="-static" LDFLAGS="--static"
