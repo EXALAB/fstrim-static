@@ -11,7 +11,7 @@ Applications that use this binary:
 
 How to compile:
 
-> apt source util-linux
+apt source util-linux
 cd util-linux-*
 ./autogen.sh
 ./configure
